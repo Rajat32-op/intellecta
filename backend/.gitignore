@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime
+dist/
+build/
+.vite/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Cache
+.cache/
+.next/
+.out/
+*.swp
+
+# MongoDB dump
+dump/
+
+# Optional: coverage from testing
+coverage/
+
+# Ignore compiled frontend files
+client/node_modules/
+client/.next/
+client/.env
+client/dist/
+client/build/
+
+# Ignore backend
+server/node_modules/
+server/.env
+
+# Ignore OneDrive temp files if your project was there
+*.tmp
+*.~*
+
+# Ignore WSL metadata if any
+.wslconfig
